@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews Carousell</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container" class="container">
+        <div id="content" class="content">
+        <img id="profile_img" class="profile_img" src="" alt="profile image">
+        <h3 id="name" class="name"></h3>
+        <h3 id="job" class="job"></h3>
+        <p id="review" class="review"></p>    
+        <div id="buttons" class="buttons">
+            <button id="left" class="buttons"><</button>
+            <button id="right" class="buttons">></button>
+        </div>
+        <button id ="new_review" class="new_review">New review</button>     
+    </div>
+</div>
+<form action="" class="new_review__form invisible" id="new_review__form">
+    <h2 class="form__title">Add new review</h2>
+    <label for="new_name">Name</label>
+    <input id="new_name" type="text" required>
+    <label for="new_job">Job</label>
+    <input id="new_job" type="text" required>
+    <label for="textarea">Review</label>
+    <textarea name="" id="textarea" cols="30" rows="5"></textarea>
+    <button type="submit">Send!</button>
+
+</form>
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
